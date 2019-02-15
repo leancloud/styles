@@ -1,3 +1,32 @@
 /*******************************
      User Global Variables
 *******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Helvetica Neue';
+@importGoogleFonts : false;
+
+
+/*-------------------
+    Brand Colors
+--------------------*/
+@primaryColor: @blue;
+@secondaryColor: @darkBlue;
+
+
+/*-------------------
+      Site Colors
+--------------------*/
+@blue: #2c97e8;
+@darkBlue: #183349;
+
+
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor: #3090e4;
