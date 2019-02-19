@@ -1,3 +1,19 @@
 /*******************************
          Site Overrides
 *******************************/
+
+@leancloudFontPath: "../../themes/leancloud/assets/fonts";
+
+@font-face {
+  font-family: radikal;
+  src: url("@{leancloudFontPath}/radikal_bold.eot");
+  src: url("@{leancloudFontPath}/radikal_bold.eot?#iefix") format("embedded-opentype"),
+    url("@{leancloudFontPath}/radikal_bold.woff2") format("woff2"),
+    url("@{leancloudFontPath}/radikal_bold.woff") format("woff"),
+    url("@{leancloudFontPath}/radikal_bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+.font-logo {
+  font-family: radikal, sans-serif;
+}
