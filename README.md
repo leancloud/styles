@@ -2,8 +2,14 @@
 
 ### Usage
 
+#### npm
+
 - `npm install @leancloud/styles`
 - `import "@leancloud/styles"`
+
+#### CDN
+
+`https://cdn.jsdelivr.net/npm/@leancloud/styles@{{VERSION}}/dist/semantic.min.css`
 
 ### Workflow
 
