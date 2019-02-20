@@ -1,0 +1,15 @@
+language: node_js
+script:
+  - ./bootstrap.sh
+  - ./build.sh
+before_deploy:
+  - cp -r styles/semantic/dist .
+  - cp -r styles/semantic/src .
+deploy:
+  - provider: npm
+    email: "lee55962698@gmail.com"
+    api_key:
+      secure: "aivIuhTn3XuzQg/N2N9h0fOVZLayUyXMGn5eAxPqwNYL/JrEHySAKokBru5SQIDe2IWnp93A1NN5NUBui8ovoGNad/bPUODE46Ij5MPorVo1LTKhhPmyKIcR//i2/BWRaSkgdMHJ8V4vAIp4ImvMicBBf0UIyy9wTc5IFxvm7NPNII4IOVq1QSW+ZQGrAXmtNCk3MElYxo83IURklhZOILUus0FXqhHA7dSyfz1R33CbP/5nD3k2W/o4c0FhhHPdqjgx4TlGi4pjfM8hKnwQ0OrIeHGutjfzMML8GR0CA11aNcAwGJ8ildja4mi0Fnyxw3mOXHyuRAKABPqZrHxppEifMZKkl/Qhl4hP4FQC/HHszpGmuXElCWSrLml1y/dkAibPGSOkv6zaVdWHwQvKguRAqENwckT4i+L3DzB6IHUL8LOg343v1J78fxLKBlJ8AP2wHC2z6UjyUWnHiFfTZz5jRXqesjPg9P5jx76qHxf+k+D4J8aeI1npGVGy4yuX3NZMvwtcCOZdolHVUtk90jLnuQjr1W6/VRGkNW+fiH2Vsvq4PfgOBIptzwtGAYCzV9OIKjBaVlXYHDLu57IoBoSpiZ4L5WcXqk7gDRdyz738K2HEqxXOOppb/qmhz2yIAZMv/jpp9H9q8IrrIP86snMljuNHCsBFZvN+HNgZ494="
+    skip_cleanup: true
+    on:
+      tags: true
