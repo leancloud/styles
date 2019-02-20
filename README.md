@@ -1,4 +1,9 @@
-# styles
+# styles ![npm](https://img.shields.io/npm/v/@leancloud/styles.svg?style=flat-square)
+
+### Usage
+
+- `npm install @leancloud/styles`
+- `import "@leancloud/styles"`
 
 ### Workflow
 
