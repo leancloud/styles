@@ -1,3 +1,35 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@fontWeight: @normal;
+@horizontalPadding: @inputHorizontalPadding;
+
+@backgroundColor: #f5f5f5;
+@borderBoxShadowColor: #d0d0d0;
+
+@coloredBoxShadow: none;
+
+/*-------------------
+        States
+--------------------*/
+@activeBackgroundColor: transparent;
+@activeBoxShadow: 0px 0px 0px 1px @primaryColor inset;
+@activeColor: @primaryColor;
+
+@hoverBackgroundColor: transparent;
+@hoverBoxShadow: @activeBoxShadow;
+@focusBoxShadow: @activeBoxShadow;
+
+@downBackgroundColor: darken(@backgroundColor, 2%);
+@downBoxShadow: @activeBoxShadow;
+
+/*-------------------
+        Group
+--------------------*/
+// The group button has its own box-shadow definition,
+// which will override the default buttom hover styles.
+// Use a invalid box-shadow value to disable such override.
+@groupButtonBoxShadow: "";
+@groupButtonOffset: 0px 0px 0px -1px;
+@verticalBoxShadow: "";
+@verticalGroupOffset: 0px 0px -1px 0px;

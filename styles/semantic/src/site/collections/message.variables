@@ -1,3 +1,31 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@headerFontSize: @relativeBig;
+@headerMargin: .1rem 0 .7rem;;
+
+@shadowPosition: -6px 0 0 0;
+
+@boxShadow: @shadowPosition @strongBorderColor, @shadowShadow;
+
+/* Colors */
+@redBoxShadow: @shadowPosition @redBorderColor, @shadowShadow;
+@orangeBoxShadow: @shadowPosition @orangeBorderColor, @shadowShadow;
+@yellowBoxShadow: @shadowPosition @yellowBorderColor, @shadowShadow;
+@oliveBoxShadow: @shadowPosition @oliveBorderColor, @shadowShadow;
+@greenBoxShadow: @shadowPosition @greenBorderColor, @shadowShadow;
+@tealBoxShadow: @shadowPosition @tealBorderColor, @shadowShadow;
+@blueBoxShadow: @shadowPosition @blueBorderColor, @shadowShadow;
+@violetBoxShadow: @shadowPosition @violetBorderColor, @shadowShadow;
+@purpleBoxShadow: @shadowPosition @purpleBorderColor, @shadowShadow;
+@pinkBoxShadow: @shadowPosition @pinkBorderColor, @shadowShadow;
+@brownBoxShadow: @shadowPosition @brownBorderColor, @shadowShadow;
+
+/* Warning / Positive / Negative / Info */
+@positiveBoxShadow: @shadowPosition @positiveBorderColor, @shadowShadow;
+@negativeBoxShadow: @shadowPosition @negativeBorderColor, @shadowShadow;
+@infoBoxShadow: @shadowPosition @infoBorderColor, @shadowShadow;
+@warningBoxShadow: @shadowPosition @warningBorderColor, @shadowShadow;
+@errorBoxShadow: @shadowPosition @errorBorderColor, @shadowShadow;
+@successBoxShadow: @shadowPosition @successBorderColor, @shadowShadow;

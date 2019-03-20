@@ -1,3 +1,11 @@
 /*******************************
         Site Overrides
 *******************************/
+
+.ui.message:not(.attached) {
+  border-radius: 0;
+}
+
+.ui.attached.message {
+  box-shadow: @attachedBoxShadow!important;
+}

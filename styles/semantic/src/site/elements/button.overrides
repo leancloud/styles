@@ -1,3 +1,13 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.buttons .button {
+  &:hover,
+  &:focus,
+  &.active,
+  &:active {
+    position: relative;
+    z-index: 1;
+  }
+}

@@ -1,3 +1,8 @@
 /*******************************
         User Overrides
 *******************************/
+
+/* Hover */
+.ui.selection.dropdown:hover > .text:not(.default) {
+  color: @selectionVisibleTextColor;
+}

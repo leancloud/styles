@@ -1,13 +1,16 @@
 /*******************************
      User Global Variables
 *******************************/
-
 /*-------------------
        Fonts
 --------------------*/
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft Yahei", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 
-@fontName          : 'Helvetica Neue';
 @importGoogleFonts : false;
+@headerFont: @font-family-sans-serif;
+@pageFont: @font-family-sans-serif;
 
 
 /*-------------------
@@ -24,9 +27,63 @@
 @darkBlue: #183349;
 
 
+/*---  Colors  ---*/
+@red              : #e62929;
+@orange           : #ff8c2c;
+@green            : #1aa208;
+@grey             : #767676;
+@black            : #1B1C1D;
+
+/*-------------------
+    Emotive Colors
+--------------------*/
+
+/* Positive */
+@positiveColor           : @green;
+@positiveBackgroundColor : #f6fff4;
+@positiveBorderColor     : lighten(@green, 10%);
+@positiveTextColor       : @green;
+@positiveHeaderColor     : @positiveTextColor;
+
+/* Negative */
+@negativeColor           : @red;
+@negativeBackgroundColor : #fff4f4;
+@negativeBorderColor     : lighten(@red, 10%);
+@negativeTextColor       : @red;
+@negativeHeaderColor     : @negativeTextColor;
+
+/* Info */
+@infoColor              : @blue;
+@infoBackgroundColor    : #f4faff;
+@infoBorderColor        : lighten(@blue, 10%);
+@infoTextColor          : @blue;
+@infoHeaderColor        : @infoTextColor;
+
+/* Warning */
+@warningColor           : @yellowTextColor;
+@warningBackgroundColor : #fcf8e3;
+@warningBorderColor     : lighten(@yellowTextColor, 10%);
+@warningTextColor       : @yellowTextColor;
+@warningHeaderColor     : @warningTextColor;
+
+@hoveredTextColor       : @primaryColor;
+@pressedTextColor       : @primaryColor;
 
 /*-------------------
        Links
 --------------------*/
 
-@linkColor: #3090e4;
+@linkColor: @blue;
+
+
+/*--------------
+   Form Input
+---------------*/
+
+@selectedBorderColor    : @primaryColor;
+
+@focusedFormBorderColor : @primaryColor;
+@focusedFormMutedBorderColor: @primaryColor;
+
+@inputVerticalPadding   : @relative10px;
+@inputHorizontalPadding : @relative10px;
