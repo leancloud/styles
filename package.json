@@ -1,6 +1,6 @@
 {
   "name": "@leancloud/styles",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "CSS implementation of LeanCloud design guide",
   "main": "dist/semantic.min.css",
   "scripts": {},
