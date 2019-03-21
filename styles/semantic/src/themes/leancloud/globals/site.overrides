@@ -1,4 +1,5 @@
-@leancloudFontPath: "../assets/fonts";
+// This should be relative to /dist/semantic.min.css
+@leancloudFontPath: "./themes/leancloud/assets/fonts";
 
 @font-face {
   font-family: radikal;
