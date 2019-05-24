@@ -87,3 +87,9 @@
 
 @inputVerticalPadding   : @relative10px;
 @inputHorizontalPadding : @relative10px;
+
+
+/*-------------------
+    Scroll Bars
+--------------------*/
+@useCustomScrollbars: false;
