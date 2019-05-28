@@ -1,3 +1,7 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@tabularActiveWeight: normal;
+@tabularTextColor: @mutedTextColor;
+@tabularHoveredTextColor: @itemTextColor;
