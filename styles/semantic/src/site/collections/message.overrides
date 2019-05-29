@@ -9,3 +9,7 @@
 .ui.attached.message {
   box-shadow: @attachedBoxShadow!important;
 }
+
+.ui.message .list:not(.ui) .list {
+  padding-left: 1em;
+}
