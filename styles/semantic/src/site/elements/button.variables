@@ -4,6 +4,7 @@
 @fontWeight: @normal;
 @horizontalPadding: @inputHorizontalPadding;
 
+@textColor: #333;
 @backgroundColor: #f5f5f5;
 @borderBoxShadowColor: #d0d0d0;
 
@@ -12,11 +13,11 @@
 /*-------------------
         States
 --------------------*/
-@activeBackgroundColor: transparent;
+@activeBackgroundColor: white;
 @activeBoxShadow: 0px 0px 0px 1px @primaryColor inset;
 @activeColor: @primaryColor;
 
-@hoverBackgroundColor: transparent;
+@hoverBackgroundColor: white;
 @hoverBoxShadow: @activeBoxShadow;
 @focusBoxShadow: @activeBoxShadow;
 
