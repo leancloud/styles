@@ -11,3 +11,10 @@
     z-index: 1;
   }
 }
+
+/*--------------
+  Labeled Icon
+---------------*/
+.ui.labeled.icon.button:hover > .icon {
+  background: fade(@primaryColor, 15%);
+}
