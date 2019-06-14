@@ -1,3 +1,21 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.form .input.focus >input:not([type]),
+.ui.form .input.focus >input[type="date"],
+.ui.form .input.focus >input[type="datetime-local"],
+.ui.form .input.focus >input[type="email"],
+.ui.form .input.focus >input[type="number"],
+.ui.form .input.focus >input[type="password"],
+.ui.form .input.focus >input[type="search"],
+.ui.form .input.focus >input[type="tel"],
+.ui.form .input.focus >input[type="time"],
+.ui.form .input.focus >input[type="text"],
+.ui.form .input.focus >input[type="file"],
+.ui.form .input.focus >input[type="url"] {
+  color: @inputFocusColor;
+  border-color: @inputFocusBorderColor;
+  border-radius: @inputFocusBorderRadius;
+  background: @inputFocusBackground;
+  box-shadow: @inputFocusBoxShadow;
+}

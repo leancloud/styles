@@ -2,16 +2,21 @@
          Site Overrides
 *******************************/
 
+/* Focus */
 .ui.input.focus > input,
-.ui.input > input:focus  {
-  z-index: 1;
+.ui.input > input:focus {
+  &,
+  ~ i.icon {
+    opacity: 1;
+    z-index: 1;
+  }
 }
 
 /* Button on Right */
 .ui.action.input:not([class*="left action"]) > input {
   margin-right: -1px;
 }
-  
+
 /* Button on Left */
 .ui[class*="left action"].input > input {
   margin-left: -1px;
