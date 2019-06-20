@@ -19,3 +19,9 @@
   background: @inputFocusBackground;
   box-shadow: @inputFocusBoxShadow;
 }
+
+.ui.form select:focus {
+  outline: none;
+  border-color: @inputFocusBorderColor;
+  box-shadow: @inputFocusBoxShadow;
+}
