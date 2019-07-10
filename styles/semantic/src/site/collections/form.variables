@@ -2,3 +2,4 @@
     User Variable Overrides
 *******************************/
 @inputFocusBoxShadow    : 0 0 0 @relative3px fade(@focusedFormBorderColor, 10%);
+@inputErrorFocusBoxShadow   : 0 0 0 @relative3px fade(@inputErrorFocusBorder, 10%);
