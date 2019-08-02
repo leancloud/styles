@@ -1,3 +1,87 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.basic.label {
+  background: @backgroundColor !important;
+  color: @color !important;
+  border: none !important;
+}
+
+.ui.basic.red.label {
+  background: fade(@red, 10%) !important;
+  color: @red !important;
+  border: none !important;
+}
+
+.ui.basic.orange.label {
+  background: fade(@orange, 10%) !important;
+  color: @orange !important;
+  border: none !important;
+}
+
+.ui.basic.yellow.label {
+  background: fade(@yellow, 10%) !important;
+  color: @yellow !important;
+  border: none !important;
+}
+
+.ui.basic.olive.label {
+  background: fade(@olive, 10%) !important;
+  color: @olive !important;
+  border: none !important;
+}
+
+.ui.basic.green.label {
+  background: fade(@green, 10%) !important;
+  color: @green !important;
+  border: none !important;
+}
+
+.ui.basic.teal.label {
+  background: fade(@teal, 10%) !important;
+  color: @teal !important;
+  border: none !important;
+}
+
+.ui.basic.blue.label {
+  background: fade(@blue, 10%) !important;
+  color: @blue !important;
+  border: none !important;
+}
+
+.ui.basic.violet.label {
+  background: fade(@violet, 10%) !important;
+  color: @violet !important;
+  border: none !important;
+}
+
+.ui.basic.purple.label {
+  background: fade(@purple, 10%) !important;
+  color: @purple !important;
+  border: none !important;
+}
+
+.ui.basic.pink.label {
+  background: fade(@pink, 10%) !important;
+  color: @pink !important;
+  border: none !important;
+}
+
+.ui.basic.brown.label {
+  background: fade(@brown, 10%) !important;
+  color: @brown !important;
+  border: none !important;
+}
+
+.ui.basic.grey.label {
+  background: fade(@grey, 10%) !important;
+  color: @grey !important;
+  border: none !important;
+}
+
+.ui.basic.black.label {
+  background: fade(@black, 10%) !important;
+  color: @black !important;
+  border: none !important;
+}
