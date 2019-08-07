@@ -12,6 +12,15 @@
   }
 }
 
+.ui.mini.buttons .button,
+.ui.mini.buttons .or,
+.ui.mini.button {
+  padding: 5px 7px;
+  margin: -2px 0;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
 /*--------------
   Labeled Icon
 ---------------*/
