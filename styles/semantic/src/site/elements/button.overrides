@@ -29,3 +29,17 @@
 .ui.labeled.icon.button:hover > .icon {
   background: fade(@primaryColor, 15%);
 }
+
+/* Basic */
+.ui.basic.primary.buttons .button,
+.ui.basic.primary.button,
+.ui.basic.secondary.buttons .button,
+.ui.basic.secondary.button,
+.ui.basic.negative.buttons .button,
+.ui.basic.negative.button,
+.ui.basic.positive.buttons .button,
+.ui.basic.positive.button {
+  box-shadow: @boxShadow !important;
+  color: @textColor !important;
+  background: @background!important;
+}
