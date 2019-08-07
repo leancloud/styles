@@ -2,7 +2,7 @@
     User Variable Overrides
 *******************************/
 @fontWeight: @normal;
-@horizontalPadding: @inputHorizontalPadding;
+@horizontalPadding: (6em/7);
 
 @textColor: #333;
 @backgroundColor: #f5f5f5;
