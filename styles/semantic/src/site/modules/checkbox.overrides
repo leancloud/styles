@@ -1,3 +1,14 @@
 /*******************************
          Site Overrides
 *******************************/
+@import "../../themes/default/collections/form.variables";
+@import "../collections/form.variables";
+
+/*--------------
+     Focus
+---------------*/
+
+.ui.checkbox input:focus ~ .box:before,
+.ui.checkbox input:focus ~ label:before {
+    box-shadow: @inputFocusBoxShadow;
+}
