@@ -1,3 +1,17 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@handleBoxShadow: @subtleShadow;
+
+@toggleHeight: 1.5rem;
+
+@toggleLaneWidth: 2.5rem;
+@toggleLaneHeight: @toggleHeight;
+
+@toggleHandleSize: 1.3rem;
+@toggleHandleOffset: 0.1rem;
+
+@toggleOffOffset: 0.1rem;
+@toggleOnOffset: (@toggleLaneWidth - @toggleHandleSize) - 0.1rem;
+
+@toggleLabelDistance: @toggleLaneWidth + 0.8rem;
