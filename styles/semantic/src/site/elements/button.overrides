@@ -17,10 +17,9 @@
 .ui.mini.button {
   padding: (5em / 12) (7em / 12);
   margin-top: (-4em / 12);
-  margin-bottom: (-1em / 12);
+  margin-bottom: (-2em / 12);
   border-radius: .25em;
   font-size: (12em / 14);
-  vertical-align: middle;
 }
 
 /*--------------
