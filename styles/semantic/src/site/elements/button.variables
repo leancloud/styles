@@ -19,7 +19,8 @@
 
 @hoverBackgroundColor: white;
 @hoverBoxShadow: @activeBoxShadow;
-@focusBoxShadow: @activeBoxShadow;
+@focusBoxShadow: @activeBoxShadow,
+  0px 0px 0px @relative3px fade(@focusedFormBorderColor, 10%);
 
 @downBackgroundColor: darken(@backgroundColor, 2%);
 @downBoxShadow: @activeBoxShadow;

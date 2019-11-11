@@ -10,6 +10,12 @@
     position: relative;
     z-index: 1;
   }
+  &:hover {
+    z-index: 2;
+  }
+  &:focus {
+    z-index: 3;
+  }
 }
 
 .ui.mini.buttons .button,
@@ -18,8 +24,17 @@
   padding: (5em / 12) (7em / 12);
   margin-top: (-4em / 12);
   margin-bottom: (-2em / 12);
-  border-radius: .25em;
+  border-radius: 0.25em;
   font-size: (12em / 14);
+}
+
+// 复制 .ui.button:focus
+// focus 样式应该覆盖 .ui.active.button
+.ui.active.button:focus {
+  background-color: @focusBackgroundColor;
+  color: @focusColor;
+  background-image: @focusBackgroundImage !important;
+  box-shadow: @focusBoxShadow;
 }
 
 /*--------------
@@ -41,4 +56,37 @@
   box-shadow: @boxShadow !important;
   color: @textColor !important;
   background: @background!important;
+}
+
+/* Colored */
+.ui.positive.button:focus {
+  box-shadow: 0px 0px 0px @relative3px fade(@positiveColorFocus, 15%);
+}
+.ui.basic.positive.button:focus {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @positiveColorFocus inset,
+    0px 0px 0px @relative3px fade(@positiveColorFocus, 10%) !important;
+}
+
+.ui.negative.button:focus {
+  box-shadow: 0px 0px 0px @relative3px fade(@negativeColorFocus, 15%);
+}
+.ui.basic.negative.button:focus {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @negativeColorFocus inset,
+    0px 0px 0px @relative3px fade(@negativeColorFocus, 10%) !important;
+}
+
+.ui.primary.button:focus {
+  box-shadow: 0px 0px 0px @relative3px fade(@primaryColorFocus, 15%);
+}
+.ui.basic.primary.button:focus {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @primaryColorFocus inset,
+    0px 0px 0px @relative3px fade(@primaryColorFocus, 10%) !important;
+}
+
+.ui.secondary.button:focus {
+  box-shadow: 0px 0px 0px @relative3px fade(@secondaryColorFocus, 15%);
+}
+.ui.basic.secondary.button:focus {
+  box-shadow: 0px 0px 0px @basicColoredBorderSize @secondaryColorFocus inset,
+    0px 0px 0px @relative3px fade(@secondaryColorFocus, 10%) !important;
 }
