@@ -2,6 +2,10 @@
         Site Overrides
 *******************************/
 
+.ui.message {
+  margin-left: @leftBorderSize;
+}
+
 .ui.message:not(.attached) {
   border-radius: 0;
 }

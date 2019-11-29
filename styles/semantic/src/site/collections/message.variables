@@ -5,7 +5,8 @@
 @headerFontSize: @relativeBig;
 @headerMargin: .1rem 0 .7rem;;
 
-@shadowPosition: -6px 0 0 0;
+@leftBorderSize: 6px;
+@shadowPosition: -@leftBorderSize 0 0 0;
 
 @boxShadow: @shadowPosition @strongBorderColor, @shadowShadow;
 
