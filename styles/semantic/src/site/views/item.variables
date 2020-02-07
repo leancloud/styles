@@ -1,3 +1,4 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@mobileItemSpacing: 1em;
