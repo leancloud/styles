@@ -21,3 +21,46 @@
 .ui[class*="left action"].input > input {
   margin-left: -1px;
 }
+
+/* select */
+.ui.input > select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.ui.input:not(.disabled) > select[disabled] {
+  opacity: @disabledOpacity;
+  pointer-events: none;
+}
+
+.ui.input > select:active {
+  border-color: @downBorderColor;
+  box-shadow: @downBoxShadow;
+}
+
+.ui.input.focus > select,
+.ui.input > select:focus {
+  border-color: @focusBorderColor;
+  box-shadow: @focusBoxShadow;
+}
+
+.ui.input.caret > select {
+  padding-right: 1.42857em;
+}
+.ui.input.caret::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 10px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin-top: -1px;
+  opacity: 0.4;
+  pointer-events: none;
+}
