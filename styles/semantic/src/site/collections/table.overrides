@@ -1,3 +1,6 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.table thead th {
+  font-size: @relativeSmall;
+}
