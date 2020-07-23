@@ -2,3 +2,4 @@
     User Variable Overrides
 *******************************/
 @fontWeight: @normal;
+@labelHoverTextColor: rgba(0, 0, 0, 0.8);

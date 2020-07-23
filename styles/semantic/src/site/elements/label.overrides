@@ -1,85 +1,127 @@
 /*******************************
          Site Overrides
 *******************************/
-
+.ui.basic.labels a.label:hover,
+a.ui.basic.label:hover {
+  background: darken(@backgroundColor, 5%) !important;
+}
 .ui.basic.label {
   background: @backgroundColor !important;
   color: @color !important;
   border: none !important;
 }
-
+.ui.basic.red.labels a.label:hover,
+a.ui.basic.red.label:hover {
+  background: fade(@red, 15%) !important;
+}
 .ui.basic.red.label {
   background: fade(@red, 10%) !important;
   color: @red !important;
   border: none !important;
 }
-
+.ui.basic.orange.labels a.label:hover,
+a.ui.basic.orange.label:hover {
+  background: fade(@orange, 15%) !important;
+}
 .ui.basic.orange.label {
   background: fade(@orange, 10%) !important;
   color: @orange !important;
   border: none !important;
 }
-
+.ui.basic.yellow.labels a.label:hover,
+a.ui.basic.yellow.label:hover {
+  background: fade(@yellow, 15%) !important;
+}
 .ui.basic.yellow.label {
   background: fade(@yellow, 10%) !important;
   color: @yellow !important;
   border: none !important;
 }
-
+.ui.basic.olive.labels a.label:hover,
+a.ui.basic.olive.label:hover {
+  background: fade(@olive, 15%) !important;
+}
 .ui.basic.olive.label {
   background: fade(@olive, 10%) !important;
   color: @olive !important;
   border: none !important;
 }
-
+.ui.basic.green.labels a.label:hover,
+a.ui.basic.green.label:hover {
+  background: fade(@green, 15%) !important;
+}
 .ui.basic.green.label {
   background: fade(@green, 10%) !important;
   color: @green !important;
   border: none !important;
 }
-
+.ui.basic.teal.labels a.label:hover,
+a.ui.basic.teal.label:hover {
+  background: fade(@teal, 15%) !important;
+}
 .ui.basic.teal.label {
   background: fade(@teal, 10%) !important;
   color: @teal !important;
   border: none !important;
 }
-
+.ui.basic.blue.labels a.label:hover,
+a.ui.basic.blue.label:hover {
+  background: fade(@blue, 15%) !important;
+}
 .ui.basic.blue.label {
   background: fade(@blue, 10%) !important;
   color: @blue !important;
   border: none !important;
 }
-
+.ui.basic.violet.labels a.label:hover,
+a.ui.basic.violet.label:hover {
+  background: fade(@violet, 15%) !important;
+}
 .ui.basic.violet.label {
   background: fade(@violet, 10%) !important;
   color: @violet !important;
   border: none !important;
 }
-
+.ui.basic.purple.labels a.label:hover,
+a.ui.basic.purple.label:hover {
+  background: fade(@purple, 15%) !important;
+}
 .ui.basic.purple.label {
   background: fade(@purple, 10%) !important;
   color: @purple !important;
   border: none !important;
 }
-
+.ui.basic.pink.labels a.label:hover,
+a.ui.basic.pink.label:hover {
+  background: fade(@pink, 15%) !important;
+}
 .ui.basic.pink.label {
   background: fade(@pink, 10%) !important;
   color: @pink !important;
   border: none !important;
 }
-
+.ui.basic.brown.labels a.label:hover,
+a.ui.basic.brown.label:hover {
+  background: fade(@brown, 15%) !important;
+}
 .ui.basic.brown.label {
   background: fade(@brown, 10%) !important;
   color: @brown !important;
   border: none !important;
 }
-
+.ui.basic.grey.labels a.label:hover,
+a.ui.basic.grey.label:hover {
+  background: fade(@grey, 15%) !important;
+}
 .ui.basic.grey.label {
   background: fade(@grey, 10%) !important;
   color: @grey !important;
   border: none !important;
 }
-
+.ui.basic.black.labels a.label:hover,
+a.ui.basic.black.label:hover {
+  background: fade(@black, 15%) !important;
+}
 .ui.basic.black.label {
   background: fade(@black, 10%) !important;
   color: @black !important;
