@@ -5,6 +5,7 @@
 /* Focus */
 .ui.input.focus > input,
 .ui.input > input:focus {
+  color: inherit;
   &,
   ~ i.icon {
     opacity: 1;
