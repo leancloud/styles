@@ -4,6 +4,7 @@ script:
   - ./build.sh
 before_deploy:
   - cp -r styles/semantic/dist .
+  - cp -r styles/semantic/dist-tds .
   - cp -r styles/semantic/src .
 deploy:
   - provider: npm

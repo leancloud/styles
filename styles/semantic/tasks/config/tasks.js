@@ -64,6 +64,12 @@ module.exports = {
 
   settings: {
 
+    less: {
+      globalVars: { 
+        theme: config.theme
+      },
+    },
+
     /* Remove Files in Clean */
     del: {
       silent : true

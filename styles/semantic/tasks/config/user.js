@@ -28,7 +28,10 @@ var
 
 try {
   // looks for config file across all parent directories
-  userConfig = requireDotFile('semantic.json');
+  var configFile = process.env.CONFIG || 'semantic.json'
+  console.log('Using configfile:', configFile)
+
+  userConfig = requireDotFile(configFile);
 }
 catch(error) {
   if(error.code === 'MODULE_NOT_FOUND') {

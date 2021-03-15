@@ -66,6 +66,8 @@ module.exports = function(callback) {
     return;
   }
 
+  console.log(settings.less)
+
   // unified css stream
   stream = gulp.src(source.definitions + '/**/' + globs.components + '.less')
     .pipe(plumber(settings.plumber.less))

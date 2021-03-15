@@ -1,6 +1,6 @@
 {
   "base": "semantic/",
-  "theme": "leancloud",
+  "theme": "tds",
   "paths": {
     "source": {
       "config": "src/theme.config",
@@ -9,12 +9,12 @@
       "themes": "src/themes/"
     },
     "output": {
-      "packaged": "dist/",
-      "uncompressed": "dist/components/",
-      "compressed": "dist/components/",
-      "themes": "dist/themes/"
+      "packaged": "dist-tds/",
+      "uncompressed": "dist-tds/components/",
+      "compressed": "dist-tds/components/",
+      "themes": "dist-tds/themes/"
     },
-    "clean": "dist/"
+    "clean": "dist-tds/"
   },
   "permission": false,
   "autoInstall": false,

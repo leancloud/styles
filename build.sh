@@ -1,5 +1,5 @@
 #!/bin/sh 
 cd styles/semantic
-npx gulp build
-cp -r dist ../../docs/out/
+CONFIG=semantic.json npx gulp build
+CONFIG=semantic-tds.json npx gulp build
 cd ../..
