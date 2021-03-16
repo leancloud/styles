@@ -11,6 +11,8 @@
 
 @headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@codeFont          : monospace;
+@emphasisFigureFont: sans-serif;
 
 @googleFontName    : @fontName;
 @importGoogleFonts : true;

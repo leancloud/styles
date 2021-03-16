@@ -1,0 +1,9 @@
+// This should be relative to /dist-tds/semantic.min.css
+@fontPath: "./themes/tds/assets/fonts";
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("@{fontPath}/DINPro-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

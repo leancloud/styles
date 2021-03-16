@@ -12,5 +12,5 @@
   font-style: normal;
 }
 .font-logo {
-  font-family: radikal, sans-serif;
+  font-family: @emphasisFigureFont;
 }

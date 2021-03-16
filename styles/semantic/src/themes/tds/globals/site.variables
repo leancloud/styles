@@ -1,35 +1,37 @@
+@import "./tds-variables.less";
+
 /*-------------------
        Fonts
 --------------------*/
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft Yahei", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
-@font-family-serif:       Georgia, "Times New Roman", Times, serif;
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-sans-serif:  @font-family;
+@font-family-serif:       serif;
+@font-family-monospace:   Consolas, monospace;
 
 @headerFont: @font-family-sans-serif;
 @pageFont: @font-family-sans-serif;
 @codeFont: @font-family-monospace;
-@emphasisFigureFont: radikal, sans-serif;
+@emphasisFigureFont: "DIN Pro", sans-serif;
 
 /*-------------------
     Brand Colors
 --------------------*/
-@primaryColor: @blue;
-@secondaryColor: @darkBlue;
+@primaryColor: @Tap6;
+@secondaryColor: @Amber6;
 
 
 /*-------------------
       Site Colors
 --------------------*/
-@blue: #2c97e8;
-@darkBlue: #183349;
+@blue: @Blue6;
+@darkBlue: @Blue7;
 
 
 /*---  Colors  ---*/
-@red              : #e62929;
-@orange           : #ff8c2c;
-@green            : #1aa208;
-@grey             : #767676;
-@black            : #1B1C1D;
+@red              : @Red6;
+@orange           : @Yellow6;
+@green            : @Green6;
+@grey             : @Grey6;
+@black            : @BasicBlack;
 
 /*-------------------
     Emotive Colors
@@ -70,7 +72,7 @@
        Links
 --------------------*/
 
-@linkColor: @blue;
+@linkColor: @primaryColor;
 
 
 /*--------------
