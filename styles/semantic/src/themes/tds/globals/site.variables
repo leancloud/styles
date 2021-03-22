@@ -39,31 +39,44 @@
 
 /* Positive */
 @positiveColor           : @green;
-@positiveBackgroundColor : #f6fff4;
-@positiveBorderColor     : lighten(@green, 10%);
-@positiveTextColor       : @green;
-@positiveHeaderColor     : @positiveTextColor;
+@positiveBackgroundColor : @Green1;
+@positiveBorderColor     : @Green3;
+@positiveTextColor       : @Grey6;
+@positiveHeaderColor     : @Grey7;
 
 /* Negative */
 @negativeColor           : @red;
-@negativeBackgroundColor : #fff4f4;
-@negativeBorderColor     : lighten(@red, 10%);
-@negativeTextColor       : @red;
-@negativeHeaderColor     : @negativeTextColor;
+@negativeBackgroundColor : @Red1;
+@negativeBorderColor     : @Red3;
+@negativeTextColor       : @Grey6;
+@negativeHeaderColor     : @Grey7;
 
 /* Info */
 @infoColor              : @blue;
-@infoBackgroundColor    : #f4faff;
-@infoBorderColor        : lighten(@blue, 10%);
-@infoTextColor          : @blue;
-@infoHeaderColor        : @infoTextColor;
+@infoBackgroundColor    : @Blue1;
+@infoBorderColor        : @Blue3;
+@infoTextColor          : @Grey6;
+@infoHeaderColor        : @Grey7;
 
 /* Warning */
 @warningColor           : @yellowTextColor;
-@warningBackgroundColor : #fcf8e3;
-@warningBorderColor     : lighten(@yellowTextColor, 10%);
-@warningTextColor       : @yellowTextColor;
-@warningHeaderColor     : @warningTextColor;
+@warningBackgroundColor : @Yellow1;
+@warningBorderColor     : @Yellow3;
+@warningTextColor       : @Grey6;
+@warningHeaderColor     : @Grey7;
+
+/* Positive / Negative Dupes */
+@successBackgroundColor : @positiveBackgroundColor;
+@successColor           : @positiveColor;
+@successBorderColor     : @positiveBorderColor;
+@successHeaderColor     : @positiveHeaderColor;
+@successTextColor       : @positiveTextColor;
+
+@errorBackgroundColor   : @negativeBackgroundColor;
+@errorColor             : @negativeColor;
+@errorBorderColor       : @negativeBorderColor;
+@errorHeaderColor       : @negativeHeaderColor;
+@errorTextColor         : @negativeTextColor;
 
 @hoveredTextColor       : @primaryColor;
 @pressedTextColor       : @primaryColor;
@@ -92,3 +105,10 @@
     Scroll Bars
 --------------------*/
 @useCustomScrollbars: false;
+
+
+/*-------------------
+        Page
+--------------------*/
+
+@textColor           : @Grey6;
