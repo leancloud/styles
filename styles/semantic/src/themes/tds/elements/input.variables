@@ -1,3 +1,4 @@
 /*******************************
     User Variable Overrides
 *******************************/
+@focusBoxShadow    : 0 0 0 2px fade(@focusedFormBorderColor, 10%);

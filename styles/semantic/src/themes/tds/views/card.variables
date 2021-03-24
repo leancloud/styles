@@ -1,0 +1,5 @@
+@shadowBoxShadow: 0px 1px 5px rgba(45, 47, 51, 0.1);
+@boxShadow:
+  @shadowBoxShadow,
+  @borderShadow
+;
