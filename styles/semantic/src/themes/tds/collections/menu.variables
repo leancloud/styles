@@ -1,2 +1,4 @@
 @secondaryPointingActiveTextColor: @primaryColor;
+@secondaryPointingHoverTextColor: @Tap5;
+@secondaryItemTransition: color .3s cubic-bezier(.645,.045,.355,1);
 @tabularActiveColor: @primaryColor;
