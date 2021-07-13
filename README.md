@@ -9,7 +9,7 @@
 
 #### CDN
 
-`https://cdn.jsdelivr.net/npm/@leancloud/styles@{{VERSION}}/dist/semantic.min.css`
+`https://code.bdstatic.com/npm/@leancloud/styles@{{VERSION}}/dist/semantic.min.css`
 
 ### Workflow
 
