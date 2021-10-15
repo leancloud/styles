@@ -3,6 +3,8 @@ script:
   - ./bootstrap.sh
   - ./build.sh
 before_deploy:
+  - unlink dist
+  - unlink dist-tds
   - cp -r styles/semantic/dist .
   - cp -r styles/semantic/dist-tds .
   - cp -r styles/semantic/src .
