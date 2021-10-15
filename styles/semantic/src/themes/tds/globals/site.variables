@@ -100,6 +100,8 @@
 @inputVerticalPadding   : @relative10px;
 @inputHorizontalPadding : @relative10px;
 
+@inputPlaceholderColor: lighten(@textColor, 35);
+@inputPlaceholderFocusColor: lighten(@inputColor, 35);
 
 /*-------------------
     Scroll Bars
