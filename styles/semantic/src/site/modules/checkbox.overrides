@@ -12,3 +12,11 @@
 .ui.checkbox input:focus ~ label:before {
     box-shadow: @inputFocusBoxShadow;
 }
+
+/*--------------
+     Hidden
+---------------*/
+/* Selectable Label */
+.ui.checkbox input.hidden + label {
+  user-select: auto;
+}
