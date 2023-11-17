@@ -47,13 +47,13 @@
 }
 
 .ui.input.caret > select {
-  padding-right: 1.42857em;
+  padding-right: 16px;
 }
 .ui.input.caret::after {
   position: absolute;
   content: "";
   top: 50%;
-  right: 10px;
+  right: 6px;
   display: inline-block;
   width: 0;
   height: 0;
