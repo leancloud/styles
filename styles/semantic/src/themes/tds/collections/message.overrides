@@ -1,0 +1,32 @@
+/*******************************
+        Site Overrides
+*******************************/
+
+.ui.message {
+  margin-left: @leftBorderSize;
+}
+
+.ui.message:not(.attached) {
+  border-radius: 0;
+}
+
+
+.ui.message .list:not(.ui) .list {
+  padding-left: 1em;
+}
+
+.ui.info.message .header,.ui.info.message > .icon{
+  color:@Blue6;
+}
+
+.ui.warning.message .header,.ui.warning.message > .icon{
+  color:@Yellow6;
+}
+
+.ui.success.message .header,.ui.success.message > .icon{
+  color:@Green6;
+}
+
+.ui.error.message .header ,.ui.error.message > .icon {
+  color: @Red6;
+}
