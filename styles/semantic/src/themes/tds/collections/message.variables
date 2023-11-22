@@ -1,1 +1,18 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
 @headerFontWeight       : 500;
+@headerFontSize: @relativeBig;
+@headerMargin: .1rem 0 .7rem;;
+
+@leftBorderSize: 4px;
+@shadowPosition: -@leftBorderSize 0 0 0;
+
+@boxShadow: 0;
+
+/* Warning / Positive / Negative / Info */
+@infoBoxShadow: @shadowPosition @Blue6, @shadowShadow;
+@warningBoxShadow: @shadowPosition @Yellow6, @shadowShadow;
+@errorBoxShadow:  @shadowPosition @Red6, @shadowShadow;
+@successBoxShadow:  @shadowPosition @Green6, @shadowShadow;
