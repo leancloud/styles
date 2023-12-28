@@ -15,7 +15,7 @@
 /*-------------------
     Brand Colors
 --------------------*/
-@primaryColor: @Tap6;
+@primaryColor: @TapText;
 @secondaryColor: @Amber6;
 
 
